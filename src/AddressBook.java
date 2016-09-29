@@ -29,8 +29,8 @@ public class AddressBook {
 		x2 = new Buddyinfo("Malek", "777", 613);
 		x3 = new Buddyinfo("Ali", "444", 994);
 		
-		temp.addBuddy(x1);
-		temp.addBuddy(x2);
+		temp.addBuddy(x1); // add buddy 1
+		temp.addBuddy(x2); //add buddy 2
 		temp.addBuddy(x3); // add buddy 3
 		temp.removeBuddy(x1);
 		System.out.println("Hello " + temp.getB(1).getName() + "!");
